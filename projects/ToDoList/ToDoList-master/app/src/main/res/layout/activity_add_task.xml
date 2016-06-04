@@ -1,0 +1,28 @@
+<LinearLayout
+        android:id="@+id/main_parent_view"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <include layout="@layout/toolbar"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp">
+        <EditText
+                android:id="@+id/task_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="task"/>
+        <EditText
+                android:id="@+id/date_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="date"
+                android:onClick="showDatePickerDialog"
+                android:inputType="none" android:editable="false"/>
+    </LinearLayout>
+
+</LinearLayout>

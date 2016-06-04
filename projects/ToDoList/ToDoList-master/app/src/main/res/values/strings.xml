@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="navigation_drawer_items">
+        <item>Item 1</item>
+           </string-array>
+
+    <string name="action_mode">Action Mode</string>
+    <string name="item1">Item 1</string>
+    <string name="item2">Item 2</string>
+    <string name="menu_item_add">Add Item</string>
+    <string name="menu_item_accept">Accept</string>
+    <string name="app_name">ToDoList</string>
+    <string name="action_settings">Settings</string>
+    <string name="task_title">Task</string>
+    <string name="date_title">Date</string>
+    <string name="task_description">Task Description</string>
+    <string name="title_activity_add_task">AddTaskActivity</string>
+    <string name="menu_item_edit">Edit</string>
+    <string name="menu_item_delete">delete</string>
+    <string name="title_activity_task_info">TaskInfoActivity</string>
+
+</resources>
